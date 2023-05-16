@@ -8,6 +8,7 @@
     padding: 0px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 
 body.inicial{
@@ -16,6 +17,8 @@ body.inicial{
     background-size: cover;
     background-attachment: fixed;
 }
+
+/*CABEÇALHO E NAVEGAÇÃO*/
 
 .cabecalho{
     display: flex;
@@ -36,6 +39,8 @@ body.inicial{
     text-decoration: underline;
 }
 
+/*CONTEÚDO PRINCIPAL*/
+
 .conteudo{
     padding-top: 120px;
     margin-bottom: 245px;
@@ -55,6 +60,8 @@ body.inicial{
     gap: 30px;
 }
 
+/*MANCHETES*/
+
 .noticia_1, .noticia_2{
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.5);
@@ -71,6 +78,8 @@ body.inicial{
     display: flex;
 }
 
+/*texto da manchete*/
+
 .texto_noticia{
     display: flex;
     flex-direction: column;
@@ -78,17 +87,23 @@ body.inicial{
     text-align: justify;
 }
 
+/*título da página*/
+
 .conteudo_principal_titulo{
     font-weight: 400;
     font-size: 45px;
     font-family: 'Exo 2', sans-serif;
 }
 
+/*subtítulo da página*/
+
 .conteudo_principal_subtitulo{
     font-weight: 400;
     font-size: 20;
     font-family: 'Exo 2', sans-serif;
 }
+
+/*botão*/
 
 .conteudo_principal_botao{
     width: 120px;
@@ -105,6 +120,8 @@ body.inicial{
 .conteudo_principal_botao:hover{
     background-color: rgb(48, 90, 126);
 }
+
+/*rodapé*/
 
  .rodape{
     padding: 20px;
