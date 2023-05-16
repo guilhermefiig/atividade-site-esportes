@@ -12,7 +12,7 @@
 }
 
 body.inicial{
-    background-image: url(imagens/foto-fundo.png);
+    background-image: url(imagens/foto-fundo2.png);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -52,6 +52,7 @@ body.inicial{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 .conteudo_principal_escrito{
@@ -64,7 +65,7 @@ body.inicial{
 
 .noticia_1, .noticia_2{
     padding: 5px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.648);
     width: 500px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(167, 167, 167, 0.508);
