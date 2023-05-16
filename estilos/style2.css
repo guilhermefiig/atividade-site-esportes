@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Passion+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body.inicial{
+    background-image: url(imagens/foto-fundo.png);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px 0px 8px 0px;
+}
+
+.cabecalho_nav a{
+    padding: 5px 15px; 
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400; 
+    color: black;
+}
+
+.cabecalho a:hover{
+    text-decoration: underline;
+}
+
+.conteudo{
+    padding-top: 120px;
+    margin-bottom: 245px;
+    border-top: 0.3px solid rgba(255, 255, 255, 0.508);
+}
+
+.conteudo_principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo_principal_escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.noticia_1, .noticia_2{
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(167, 167, 167, 0.508);
+    display: flex;
+}
+.noticia_1{
+    margin-bottom: 10px;
+}
+
+.foto_noticia{
+    display: flex;
+}
+
+.texto_noticia{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    text-align: justify;
+}
+
+.conteudo_principal_titulo{
+    font-weight: 400;
+    font-size: 45px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.conteudo_principal_subtitulo{
+    font-weight: 400;
+    font-size: 20;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.conteudo_principal_botao{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(58, 104, 145);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.conteudo_principal_botao:hover{
+    background-color: rgb(48, 90, 126);
+}
+
+ .rodape{
+    padding: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.633);
+    text-align: center;
+ }
