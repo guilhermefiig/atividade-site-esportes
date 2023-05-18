@@ -11,31 +11,36 @@
 }
 
 body{
-    background-color: rgba(211, 211, 211, 0.411);
+    background-image: linear-gradient( 45deg, rgb(21, 21, 54), rgb(55, 55, 167));
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header{
-    background-color: #023f9c;  
+    border-bottom: 0.3px solid rgba(255, 255, 255, 0.508);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding:  8px 0px 8px 0px;
+    padding:  14px 0px 14px 0px;
 }
 
 nav a{
    padding: 5px 15px;
    color: white; 
+   font-family: 'Exo 2', sans-serif;
 }
 
 a:hover{
-    background-color: #024ec0;
+    text-decoration: underline;
     border-radius: 3px;
 }
 
 h1{
     text-align: center;
     color: white;
+    font-family: 'Exo 2', sans-serif;
 }
 
 h2{
@@ -48,13 +53,12 @@ h3{
     text-align: center;
 }
 
-
-
 main{
     background-color: white;
     width: 650px;
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 20px;
     padding: 10px;
     border-radius:8px;
     box-shadow: 0px 0px 5px rgba(99, 98, 98, 0.375);
@@ -66,7 +70,7 @@ iframe{
 }
 
 .jogos{
-    background-color: rgba(211, 211, 211, 0.411);
+    background-color: rgb(211, 211, 211);
     border-radius: 5px; 
     margin-bottom: 10px;
     padding: 0px 5px 5px 5px;
@@ -126,14 +130,15 @@ p{
 }
 
 footer{
-    background-color: #023f9c;
-    color: white;
-    margin-top: 10px;
-    padding: 5px 0px;
+        padding: 20px;
+        border-top: 0.3px solid rgba(255, 255, 255, 0.633);
+        text-align: center;
+        color: white;
 }
 
 footer p{
-    text-align: center
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;  
 }
 
 table{
@@ -143,7 +148,7 @@ table{
 }
 
 th, td{
-    padding: 2px 12px;
+    padding: 2px 6px;
 }
 
 td{
@@ -170,4 +175,21 @@ td img{
 thead{
     position: sticky;
     top: -1px;
+}
+
+.conteudo_pag2{
+    display: flex;
+    flex-direction: row;
+}
+
+.tabela_brasileirao{
+    width: 205px;
+    height: 400px;
+    font-size: 9px;
+    background-color: white;
+}
+
+.tabelas{
+    display: flex;
+    flex-direction: column;
 }
