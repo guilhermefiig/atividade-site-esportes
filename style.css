@@ -10,6 +10,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Estilização geral para página 2 e 3*/
+
 body{
     background-image: linear-gradient( 45deg, rgb(21, 21, 54), rgb(55, 55, 167));
     background-position: center center;
@@ -53,15 +55,10 @@ h3{
     text-align: center;
 }
 
-main{
-    background-color: white;
-    width: 650px;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius:8px;
-    box-shadow: 0px 0px 5px rgba(99, 98, 98, 0.375);
+p{
+    text-align: justify;
+    text-indent: 10px;
+    line-height: 20px;
 }
 
 iframe{
@@ -70,15 +67,54 @@ iframe{
 }
 
 .jogos{
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(224, 224, 224);
     border-radius: 5px; 
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     padding: 0px 5px 5px 5px;
     box-shadow: 0px 0px 5px rgba(99, 98, 98, 0.375);
 }   
 
 .jogos p{
     text-align: center;
+}
+
+footer{
+        padding: 20px;
+        border-top: 0.3px solid rgba(255, 255, 255, 0.633);
+        text-align: center;
+        color: white;
+}
+
+footer p{
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;  
+}
+
+
+/*Estilização específica da página 2*/
+
+.conteudo_pag2{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    padding: 1px;
+    margin: 1px;
+}
+
+.conteudo_principal_pag2{
+    background-color: white;
+    width: 650px;
+    padding: 10px;
+    margin-left: 380px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(99, 98, 98, 0.375);
+}
+
+.conteudo_principal_pag2 p{
+    margin-bottom: 30px;    
 }
 
 #real{
@@ -93,6 +129,129 @@ iframe{
     color: white;
     margin: 0px -5px;
     border-radius: 5px 5px 0px 0px; 
+}
+
+table.brasileiro{
+    border-top: 1px solid rgb(162, 162, 162);
+    border-bottom: 1px solid rgb(162, 162, 162);
+    border-collapse: collapse;
+    background-color: white;
+    margin: auto;
+    width: 240px;
+    font-size: 11px;
+}
+
+table.brasileiro td{
+    border-bottom: 1px solid #d2d2d2;
+    text-align: center;
+}
+
+table.brasileiro td, th{
+    padding: 2px 4px;
+}
+
+table.brasileiro th{
+    border-bottom: 1px solid #999999;
+    padding: 5px 0px;
+}
+
+table.brasileiro tr:nth-child(2n){
+    background-color: rgba(235, 235, 235, 0.811);
+}
+
+table.premier{
+    border-top: 1px solid rgb(162, 162, 162);
+    border-bottom: 1px solid rgb(162, 162, 162);
+    border-collapse: collapse;
+    background-color: white;
+    margin: auto;
+    width: 240px;
+    font-size: 11px;
+}
+
+table.premier td{
+    border-bottom: 1px solid #d2d2d2;
+    text-align: center;
+}
+
+table.premier td, th{
+    padding: 2px 4px;
+}
+
+table.premier th{
+    border-bottom: 1px solid #999999;
+    padding: 5px 0px;
+}
+
+table.premier tr:nth-child(2n){
+    background-color: rgba(235, 235, 235, 0.811);
+}
+
+table.laliga{
+    border-top: 1px solid rgb(162, 162, 162);
+    border-bottom: 1px solid rgb(162, 162, 162);
+    border-collapse: collapse;
+    background-color: white;
+    margin: auto;
+    width: 240px;
+    font-size: 11px;
+}
+
+table.laliga td{
+    border-bottom: 1px solid #d2d2d2;
+    text-align: center;
+}
+
+table.laliga td, th{
+    padding: 2px 4px;
+}
+
+table.laliga th{
+    border-bottom: 1px solid #999999;
+    padding: 5px 0px;
+}
+
+table.laliga tr:nth-child(2n){
+    background-color: rgba(235, 235, 235, 0.811);
+}
+
+.tabela_brasileirao, .tabela_premier, .tabela_laliga{
+    width: 240px;
+    height: 390px;
+    font-size: 9px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.tabelas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 60px;
+}
+
+.tabelas h2{
+    padding: 5px;
+    margin: 0px;
+}
+
+.tabelas .times{
+    text-align: left;
+}
+
+
+/*Estilização específica da página 3*/
+
+.conteudo_principal_pag3{
+    background-color: white;
+    width: 650px;
+    padding: 10px;
+    margin-left: 380px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(99, 98, 98, 0.375);
 }
 
 #warr{
@@ -123,73 +282,7 @@ iframe{
     border-radius: 5px 5px 0px 0px;
 }
 
-p{
-    text-align: justify;
-    text-indent: 10px;
-    line-height: 20px;
-}
 
-footer{
-        padding: 20px;
-        border-top: 0.3px solid rgba(255, 255, 255, 0.633);
-        text-align: center;
-        color: white;
-}
 
-footer p{
-    text-align: center;
-    font-family: 'Exo 2', sans-serif;  
-}
 
-table{
-    border: 1px solid rgb(162, 162, 162);
-    border-collapse: collapse;
-    display: table-cell;
-}
 
-th, td{
-    padding: 2px 6px;
-}
-
-td{
-    border-bottom: 1px solid #d2d2d2;
-    text-align: center;
-}
-
-th{
-    border-bottom: 1px solid #999999;
-    background-color: #f1f1f1f6;
-    padding: 5px 0px;
-}
-
-.times{
-    text-align: left;
-    vertical-align: middle;
-    display: table-cell;
-}
-
-td img{
-    padding-right: 5px;
-}
-
-thead{
-    position: sticky;
-    top: -1px;
-}
-
-.conteudo_pag2{
-    display: flex;
-    flex-direction: row;
-}
-
-.tabela_brasileirao{
-    width: 205px;
-    height: 400px;
-    font-size: 9px;
-    background-color: white;
-}
-
-.tabelas{
-    display: flex;
-    flex-direction: column;
-}
