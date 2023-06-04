@@ -239,6 +239,10 @@ table.laliga tr:nth-child(2n){
     text-align: left;
 }
 
+table a{
+    text-decoration: none;
+    color: black;
+}
 
 /*Estilização específica da página 3*/
 
