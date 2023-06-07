@@ -13,6 +13,10 @@
 
 /**/
 
+body, html{
+    height: 100vh;
+}
+
 body.inicial{
     background-image: linear-gradient( 45deg, rgb(21, 21, 54), rgb(55, 55, 167));
     background-position: center center;
