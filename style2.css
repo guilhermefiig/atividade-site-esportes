@@ -48,7 +48,6 @@ body.inicial{
 
 .conteudo{
     padding-top: 120px;
-    margin-bottom: 243px;
     border-top: 0.3px solid rgba(255, 255, 255, 0.508);
 }
 
@@ -138,6 +137,9 @@ body.inicial{
     padding: 20px;
     border-top: 0.3px solid rgba(255, 255, 255, 0.633);
     text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 
 .rodape p{
